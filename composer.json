@@ -26,6 +26,7 @@
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
+        "drupal/coder": "^8.3",
         "drupal/core-dev": "^9.3"
     },
     "conflict": {
@@ -39,7 +40,8 @@
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "autoload": {
