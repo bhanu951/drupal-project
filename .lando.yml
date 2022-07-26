@@ -18,7 +18,7 @@ tooling:
     cmd: "/app/vendor/bin/drupal --root=/app/web"
   drupalcs:
     service: appserver
-    cmd: /app/vendor/bin/phpcs --standard=Drupal,DrupalPractice
+    cmd: /app/vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md,yml 
   drupalcbf:
     service: appserver
     cmd: /app/vendor/bin/phpcbf --standard=Drupal,DrupalPractice
