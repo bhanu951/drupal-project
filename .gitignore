@@ -25,3 +25,6 @@
 /.env
 /.editorconfig
 /.gitattributes
+
+# Ignore DDEV Settings.
+web/sites/default/settings.ddev.php
