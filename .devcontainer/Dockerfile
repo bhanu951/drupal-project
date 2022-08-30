@@ -13,6 +13,3 @@ RUN curl -fsSL https://apt.fury.io/drud/gpg.key | sudo apt-key add - \
     && echo "deb https://apt.fury.io/drud/ * *"  >> /etc/apt/sources.list.d/ddev.list \
     && apt-get update \
     && apt-get install -y ddev
-
-RUN ddev composer install -n \
-    && ddev drush st
